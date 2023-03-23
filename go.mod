@@ -2,6 +2,8 @@ module mynewt.apache.org/newt
 
 go 1.13
 
+replace github.com/apache/mynewt-artifact => /home/philip/development/mynewt-artifact
+
 require (
 	github.com/apache/mynewt-artifact v0.0.24
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
